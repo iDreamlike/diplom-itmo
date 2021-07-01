@@ -1,0 +1,8 @@
+#!/bin/bash
+
+git clone https://github.com/iDreamlike/diplom-itmo.git && /
+cd ./diplom-itmo/ && /
+docker-compose build && /
+docker-compose up || /
+echo "===Something wrong...==="
+
